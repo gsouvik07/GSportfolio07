@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="images/0770.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7d3b5ebf2b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/namelogo08.png" class="namelogo08">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hello, I'm <span>Souvik Ghosh</span><br> From West Bengal,India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/0770.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Souvik Ghosh, a first year student pursuing B.Tech Information Technology at @Haldia
+                        Institute of Technology.
+                        I am always ready to have new experiences , meet new people and learn new things . I find the
+                        idea of creating value to impacting the world through my work gratifying.
+                        I am very interested in AI ML and it’s amazing to learn about its applications in various
+                        fields.
+                        I enjoy challenges that enable me to grow. I like to find application in what is taught to me
+                        and use new techniques to learn as quickly as possible.
+                        Having lived all around the country and meeting a lot of people . I’m able to adapt to any
+                        surrounding or circumstance.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desining Web Interfaces</li>
+                            <li><span>Web Development</span><br> Frontent Web Developer</li>
+                            <li><span>Engineer</span><br>Software Engineer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2008-2014</span><br>Ananda Marga Gurukulla School</li>
+                            <li><span>2014-2020</span><br>Panrui U.A High School</li>
+                            <li><span>2020-2022</span><br>Bolpur High School</li>
+                            <li><span>2022-2026</span><br>BTech CSIT in Haldia Instution Of Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Programming Langugages</span><br>C , C++ with DSA</li>
+                            <li><span>Web Development</span><br>Html5,CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services-------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Nostrum maxime iste quis!
+                        Sunt quae quos nobis minima</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Programming Languages</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Nostrum maxime iste quis!
+                        Sunt quae quos nobis minima</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-object-ungroup"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Nostrum maxime iste quis!
+                        Sunt quae quos nobis minima</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------portfolio--------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <dis class="layer">
+                        <h3>Social Media Website</h3>
+                        <p>The App connects you To
+                            The Talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </dis>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <dis class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Lorem ipsum
+                            dolor sit amet consectetur,
+                            adipisicing elit. At, cum!</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </dis>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <dis class="layer">
+                        <h3>Online Music Website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Velit similique ex
+                            necessitatibus illo culpa.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </dis>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------contact-------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-envelopes-bulk"></i>souvikindirapalli@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+91 8597061383</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/souvik.ghoshgs"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/souvik-ghosh-a92543260"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://instagram.com/gsouvik_07?igshid=YmJhNjkzNzY="><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/GSouvik07?t=VD4hfnWhzB5emNEPGMfhqQ&s=09"><i
+                                class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <a href="images/GS-CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © GS_Made By Souvik Ghosh.</p>
+        </div>
+    </div>
+
+
+    <script>
+         document.addEventListener("DOMContentLoaded", function(){
+        alert("HELLO NAMASTE");
+    })
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwVWTg_6GxuZ_BMWrsvK7jlCTaPL_ZZ-IrNhVeEX4jDNFQDCZ7zlXgLgjJ09KZGlHQq/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
